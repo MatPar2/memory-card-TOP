@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import Scorecard from "./components/Scorecard.js"
 import Grid from "./components/Grid.js"
 

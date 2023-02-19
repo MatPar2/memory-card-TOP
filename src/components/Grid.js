@@ -12,9 +12,6 @@ export default function Grid() {
       <Card/>
       <Card/>
       <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
     </div>
   )
 }
