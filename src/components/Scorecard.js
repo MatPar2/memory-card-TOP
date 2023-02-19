@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Scorecard() {
   const currentScore = 0;
   const bestScore = 0;

@@ -1,5 +1,6 @@
-import Scorecard from "./components/Scorecard.js"
 import './App.css';
+import Scorecard from "./components/Scorecard.js"
+import Grid from "./components/Grid.js"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
         <Scorecard/>
       </header>
+      <Grid/>
     </div>
   );
 }
