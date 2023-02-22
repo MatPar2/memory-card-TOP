@@ -1,11 +1,8 @@
-export default function Scorecard() {
-  const currentScore = 0;
-  const bestScore = 0;
-
+export default function Scorecard(props) {
   return (
     <div>
-      <p>Current Score: {currentScore}</p>
-      <p>Best Score: {bestScore}</p>
+      <p>Current Score: {props.score}</p>
+      <p>Best Score: {props.bestScore}</p>
     </div>
   )
 }
