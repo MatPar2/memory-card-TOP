@@ -31,7 +31,7 @@ export default function Grid(props) {
     const randomNames = shuffleArray(names.slice(0));
     
     const listToRender = randomNames.map((elem, index) => 
-        <Card name={elem} key={index} setScore={props.setScore} clickedCharacters={clickedCharacters} setClickedCharacters={setClickedCharacters}/>
+        <Card name={elem} key={index} score={props.score} bestScore={props.bestScore} setScore={props.setScore} setBestScore={props.setBestScore} clickedCharacters={clickedCharacters} setClickedCharacters={setClickedCharacters}/>
       )
     
     return listToRender;

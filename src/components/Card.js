@@ -1,11 +1,8 @@
 import imgSrc from "../assets/images.png"
 
-function createNewMatch() {
-  // ToDo
-}
-
 export default function Card(props) {
   function handleClick(props) {
+    console.log(props.name)
     if (props.clickedCharacters.some(elem => elem === props.name)) {
       createNewMatch();
     } else {
@@ -18,6 +15,14 @@ export default function Card(props) {
         props.name
       ]);
     }
+  }
+
+  function createNewMatch() {
+    if (props.bestScore < props.score) {
+      props.setBestScore(props.score);
+    }
+    props.setScore(0);
+    props.setClickedCharacters([]);
   }
 
   return(
