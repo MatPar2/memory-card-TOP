@@ -1,5 +1,6 @@
 import Card from "./Card"
 import { useState } from "react"
+import IMAGES from "../assets/index.js";
 
 const names = [
   "Homer",
@@ -31,7 +32,16 @@ export default function Grid(props) {
     const randomNames = shuffleArray(names.slice(0));
     
     const listToRender = randomNames.map((elem, index) => 
-        <Card name={elem} key={index} score={props.score} bestScore={props.bestScore} setScore={props.setScore} setBestScore={props.setBestScore} clickedCharacters={clickedCharacters} setClickedCharacters={setClickedCharacters}/>
+        <Card 
+          name={elem} 
+          key={index} 
+          imgSrc={IMAGES[elem]}
+          score={props.score} 
+          bestScore={props.bestScore} 
+          setScore={props.setScore} 
+          setBestScore={props.setBestScore} 
+          clickedCharacters={clickedCharacters} 
+          setClickedCharacters={setClickedCharacters}/>
       )
     
     return listToRender;

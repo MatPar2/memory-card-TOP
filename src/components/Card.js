@@ -27,7 +27,7 @@ export default function Card(props) {
 
   return(
     <div className="Card" onClick={() => handleClick(props)}>
-      <img src={imgSrc} alt="#"/>
+      <img src={props.imgSrc} alt="#"/>
       <p>{props.name}</p>
     </div>
   )
