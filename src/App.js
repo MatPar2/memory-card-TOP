@@ -15,7 +15,7 @@ function App() {
 
         <Scorecard score={score} bestScore={bestScore}/>
       </header>
-      <Grid/>
+      <Grid setScore={setScore}/>
     </div>
   );
 }
