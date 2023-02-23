@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/memory-card-TOP/static/css/main.50c77f86.css",
+    "main.js": "/memory-card-TOP/static/js/main.1707b23d.js",
+    "static/js/787.c8c411f5.chunk.js": "/memory-card-TOP/static/js/787.c8c411f5.chunk.js",
+    "static/media/Grampa.png": "/memory-card-TOP/static/media/Grampa.c6dd3d1db53427fe9e59.png",
+    "static/media/Ned.png": "/memory-card-TOP/static/media/Ned.031cebea13928da639f5.png",
+    "static/media/Lisa.png": "/memory-card-TOP/static/media/Lisa.f72b3767bc96946b1b52.png",
+    "static/media/Maggie.png": "/memory-card-TOP/static/media/Maggie.cef32bf0eca6fba81103.png",
+    "static/media/Burns.png": "/memory-card-TOP/static/media/Burns.61d28c66b82779593060.png",
+    "static/media/Homer.png": "/memory-card-TOP/static/media/Homer.d70684de74582c2008e2.png",
+    "static/media/Bart.png": "/memory-card-TOP/static/media/Bart.8783ef2a12a693bd7e84.png",
+    "static/media/Moe.png": "/memory-card-TOP/static/media/Moe.e51bb663def303b0559d.png",
+    "static/media/Marge.png": "/memory-card-TOP/static/media/Marge.4e928d84e4aa77621f74.png",
+    "index.html": "/memory-card-TOP/index.html",
+    "main.50c77f86.css.map": "/memory-card-TOP/static/css/main.50c77f86.css.map",
+    "main.1707b23d.js.map": "/memory-card-TOP/static/js/main.1707b23d.js.map",
+    "787.c8c411f5.chunk.js.map": "/memory-card-TOP/static/js/787.c8c411f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50c77f86.css",
+    "static/js/main.1707b23d.js"
+  ]
+}
