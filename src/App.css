@@ -3,17 +3,6 @@
   display: grid;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   height: 15vh;
@@ -27,10 +16,6 @@
   padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .Grid {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -38,16 +23,6 @@
   row-gap: 10px;
   column-gap: 30px;
   margin-top: 50px;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 img {
