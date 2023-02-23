@@ -21,13 +21,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.Description {
-  width: 60vw;
+  padding: 20px;
 }
 
 .App-link {
@@ -44,11 +41,6 @@
   margin-top: 50px;
 }
 
-.Card {
-  border: #282c34 solid 1px;
-  border-radius: 10px;
-  padding: 15px;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -63,7 +55,7 @@ img {
   height: 200px;
 }
 
-/* Style from Alvaro Trigo - https://alvarotrigo.com/blog/best-css-button-hover-effects/ */
+/* Hover effect from Alvaro Trigo - https://alvarotrigo.com/blog/best-css-button-hover-effects/ */
 .Card {
   width: 220px;
   border: none;
@@ -74,6 +66,7 @@ img {
   position: relative;
   z-index: 0;
   border-radius: 10px;
+  padding: 15px;
 }
 
 .Card:before {
